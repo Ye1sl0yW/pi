@@ -1,0 +1,3 @@
+points_homepage:
+    path:     /
+    defaults: { _controller: PointsBundle:Default:index }
