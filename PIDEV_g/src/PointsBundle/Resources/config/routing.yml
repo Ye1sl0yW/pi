@@ -1,3 +1,21 @@
-points_homepage:
-    path:     /
-    defaults: { _controller: PointsBundle:Default:index }
+
+
+points_ajout:
+    path:     /ajoutpoints
+    defaults: {_controller: PointsBundle:Points:ajoutTicket}
+
+ticket_afficher:
+    path:      /afficherpoints{id}
+    defaults: {_controller: PointsBundle:Points:afficherTicket}
+
+ticket_supprimer:
+    path: /supprimer{id}
+    defaults: {_controller: PointsBundle:Points:supprimerTicket}
+
+ticket_modifier:
+    path: /modifier{id}
+    defaults: {_controller: PointsBundle:Points:modifierTicket}
+
+portfolios_afficher:
+    path: /
+    defaults: {_controller: PointsBundle:Points:afficherPortfolios}

@@ -29,17 +29,6 @@ class User extends BaseUser
      */
 
     private $prenom;
-    /**
-     * @ORM\Column(type="Integer")
-     */
-    private $type;
-
-    /**
-     * @return mixed
-     */
-
-
-
 
 
 

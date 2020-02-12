@@ -75,14 +75,15 @@
       <command value="c friendsofsymfony/user-bundle &quot;~2.0&quot;" />
       <command value="c require friendsofsymfony/user-bundle &quot;~2.0&quot;" />
       <command value="c require friendsofsymfony/user-bundle" />
+      <command value="c dump-autoload" />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:schema:update" />
+      <command value="s doctrine:generate:form PointsBundle:Ticket" />
       <command value="s doctrine:schema:create" />
       <command value="s cache:clear" />
+      <command value="s doctrine:schema:update --force" />
       <command value="s cache:clear --env=prod --no-warmup" />
       <command value="s cache:clear --env=dev --no-warmup" />
-      <command value="c dump-autoload" />
-      <command value="s doctrine:schema:update" />
-      <command value="s doctrine:schema:update --force" />
-      <command value="s generate:bundle" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -111,7 +112,8 @@
       <workItem from="1581442135825" duration="486000" />
       <workItem from="1581453336652" duration="3510000" />
       <workItem from="1581459978528" duration="110000" />
-      <workItem from="1581460101778" duration="1114000" />
+      <workItem from="1581460101778" duration="1713000" />
+      <workItem from="1581494512686" duration="15680000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 points:
     resource: "@PointsBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /points
 
 user:
     resource: "@UserBundle/Resources/config/routing.yml"
