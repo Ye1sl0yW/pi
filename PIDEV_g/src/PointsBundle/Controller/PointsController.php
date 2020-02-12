@@ -8,6 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use PointsBundle\Entity\Ticket;
 use PointsBundle\Entity\Portfolio;
 use PointsBundle\Form\TicketType;
+use PointsBundle\Form\PortfolioType;
 use Symfony\Component\HttpFoundation\Request;
 
 
@@ -60,16 +61,10 @@ class PointsController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em -> persist($ticket);
             $em->flush();
-            return $this->redirectToRoute('portfolioss_afficher');
+            return $this->redirectToRoute('portfolios_afficher');
         }
         return $this->render('@Points/Ticket/ajoutticket.html.twig',array('f'=> $form->createView()));
 
     }
 
-    public function afficherPortfoliosAction()
-    {
-
-        $portfolio = $this->getDoctrine()->getRepository(Portfolio::class)->findAll();
-        return $this->render('@Points/Portfolio/affichagePortfolio.html.twig', array('tab' => $portfolio));
-    }
 }

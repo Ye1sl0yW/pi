@@ -1,6 +1,6 @@
 
 
-points_ajout:
+ticket_ajout:
     path:     /ajoutpoints
     defaults: {_controller: PointsBundle:Points:ajoutTicket}
 
@@ -18,4 +18,16 @@ ticket_modifier:
 
 portfolios_afficher:
     path: /
-    defaults: {_controller: PointsBundle:Points:afficherPortfolios}
+    defaults: {_controller: PointsBundle:Portfolio:afficherPortfolio}
+
+portfolios_ajouter:
+    path: /ajoutportfolio
+    defaults: {_controller: PointsBundle:Portfolio:ajouterPortfolio}
+
+portfolio_supprimer:
+    path: /supportfol{id}
+    defaults: {_controller: PointsBundle:Portfolio:supprimerPortfolio}
+
+portfolio_modifier:
+    path: /modportfol{id}
+    defaults: {_controller: PointsBundle:Portfolio:modifierPortfolio}
