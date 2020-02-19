@@ -56,17 +56,38 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client-core" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/message-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XfRjNJxqjKHDyOBWjMBoskJzm3" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SmsBundle/Resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/PointsBundle/Resources/views/Ticket" />
+      <recent name="$PROJECT_DIR$/src/PointsBundle/Resources/views/Portfolio" />
+      <recent name="$PROJECT_DIR$/src/PointsBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/src/UserBundle/Entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/SmsBundle/Resources" />
+      <recent name="$PROJECT_DIR$/app/Resources" />
       <recent name="$PROJECT_DIR$/app/config" />
     </key>
   </component>
@@ -76,15 +97,21 @@
       <command value="c require friendsofsymfony/user-bundle &quot;~2.0&quot;" />
       <command value="c require friendsofsymfony/user-bundle" />
       <command value="c dump-autoload" />
-      <command value="s generate:bundle" />
-      <command value="s doctrine:schema:update" />
       <command value="s doctrine:generate:form PointsBundle:Ticket" />
       <command value="s doctrine:schema:create" />
       <command value="s doctrine:generate:form PointsBundle:Portfolio" />
       <command value="s cache:clear --env=dev --no-warmup" />
-      <command value="s cache:clear --env=prod --no-warmup" />
+      <command value="c require hwi/oauth-bundle php-http/guzzle6-adapter php-http/httplug-bundle" />
+      <command value="c require hwi/oauth-bundle " />
+      <command value="c require  php-http/httplug-bundle" />
+      <command value="c require nexmo/client" />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:schema:update" />
+      <command value="c require friendsofsymfony/message-bundle" />
       <command value="s doctrine:schema:update --force" />
+      <command value="s doctrine:mapping:info" />
       <command value="s cache:clear" />
+      <command value="s cache:clear --env=prod --no-warmup" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -115,6 +142,7 @@
       <workItem from="1581459978528" duration="110000" />
       <workItem from="1581460101778" duration="1713000" />
       <workItem from="1581494512686" duration="21237000" />
+      <workItem from="1582126229915" duration="11467000" />
     </task>
     <servers />
   </component>
